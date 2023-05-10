@@ -285,9 +285,7 @@ public class FrmConexionBD extends javax.swing.JFrame {
             ps.close();
             statement.close();
             connection.close();
-            for (int i =0; i<idProductos.size(); i++){
-                System.out.println(idProductos.get(i));
-            }
+            
             
         } catch (Exception e) {
             System.out.println(e.toString());
